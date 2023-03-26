@@ -1,0 +1,48 @@
+#convert {
+    background-color: #bba768;
+  }
+  #convert:hover {
+    background-color: #bcc768;
+  }
+  body{
+    background-image: url("https://c1.wallpaperflare.com/preview/492/727/830/thermometer-temperature-measurement-health.jpg");
+    background-repeat: no-repeat;
+    /* margin: 0px;
+    padding: 0px;  */
+    background-size: cover;
+
+  }
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ec520a;
+    padding-top: 13.5%;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ec520a;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #0ef0a4;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }

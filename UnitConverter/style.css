@@ -1,0 +1,60 @@
+/* h1
+{
+   color: red;
+} */
+
+body{
+
+   margin: 0px;
+   padding: 0px; 
+   /* border: 2px solid black; */
+   /* background: rgb(5, 230, 238); */
+   background-image: url("https://diesunddas.co.uk/wp-content/uploads/2022/01/calculator-photo-edited-1024x577.jpg");
+}
+
+.convertor-body{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 0px 0px 2px 1px #630606;
+    border: 2px solid black;
+    background: rgb(5, 230, 238);
+}
+
+.convertor-title{
+   text-align: center;
+   margin: 15px 0px;
+}
+input{
+   height: 25px;
+   text-align: center;
+   width:180px;
+}  
+#input{
+   margin-left: 50px;
+   width:180px;
+   
+   /* height: 25px; */
+}
+#inputType,#resultType{
+   width:188px;
+   margin-left: 50px;
+   height: 25px;
+   color: red;
+}
+#resultType{
+   margin-left: 13.5px;
+   width:188px;
+   /* height: 25px; */
+}
+/* spam{
+  width:166.66px;
+} */
+
+ /* input{
+   height: 25px;
+   text-align: center;
+} */

@@ -1,0 +1,113 @@
+ /* *{
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+  } */
+/* .Rhome
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        width:100%;
+        height: 100vh;
+        background-image: url("https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+        background-position: center;
+        background-size: cover;
+} */
+.Rhome{
+    margin:0px;
+    padding-left:1%;
+    padding-right:1%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* color: rgb(187, 52, 3);
+    text-align: center; */
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-item: center;
+}
+/* .logo{
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+} */
+/* .menu-icon{
+    width:50px;
+    cursor: pointer;
+    margin-left: 20px;
+    height:40%
+} */
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+.row{
+    display:flex;
+    heigth: 88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(245, 70, 7);
+    font-size: 50px;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+    line-heigth: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size :12px;
+    padding :12px 0px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+   width: 180px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   box-sizing:border-box;
+   cursor:pointer;
+   margin:10px 15px;
+  
+   background-position: center;
+   background-size:cover ;
+}
+.card1{
+    background-image: url("https://assets-news.housing.com/news/wp-content/uploads/2022/08/17225125/places-to-visit-in-tirupati-FEATURE-compressed.jpg");
+}
+.card2{
+    background-image: url("https://cdn.kstdc.co/uploads/2020/07/Murdeshwar.png");
+}
+.card3{
+    background-image: url("https://i0.wp.com/news.jugaadin.com/wp-content/uploads/2020/03/ramahswaram-tamil-nadu.jpg?fit=1024%2C486&ssl=1");
+}
+.card4{
+    background-image: url("https://assets.cntraveller.in/photos/60ba05b2ce82080a5bb732ae/16:9/w_1024%2Cc_limit/Beachhunambar.jpg");
+}
